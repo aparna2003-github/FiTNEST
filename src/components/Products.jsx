@@ -4,7 +4,8 @@ import ProductCard from './ProductCard'
 import { Link } from "react-router-dom";
 
 
-const API = "https://fitnest-json-server.onrender.com";  // No cors-anywhere
+const API = "https://fitnest-jp6o.onrender.com";  // your working JSON server
+// No cors-anywhere
 
 
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "https://cors-anywhere.herokuapp.com/https://fitnest-json-server.onrender.com";
+const API = "https://fitnest-jp6o.onrender.com";
 
 
 function Wishlist() {

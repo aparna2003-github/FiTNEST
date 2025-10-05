@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import axios from 'axios'
 
 
-const API = "https://fitnest-json-server.onrender.com";
+const API = "https://fitnest-jp6o.onrender.com";
 
 
 export default function Cart(){
