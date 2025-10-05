@@ -4,7 +4,8 @@ import ProductCard from './ProductCard'
 import { Link } from "react-router-dom";
 
 
-const API = "https://fitnest-json-server.onrender.com";
+const API = "https://cors-anywhere.herokuapp.com/https://fitnest-json-server.onrender.com";
+
 
 export default function Products() {
   const [products, setProducts] = useState([])
