@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "const API = "https://your-json-server.onrender.com";
 
 function Wishlist() {
   const [wishlist, setWishlist] = useState([]);
