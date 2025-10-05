@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API = 'http://localhost:5000'
+const API = "https://fitnest-json-server.onrender.com";
 
 export default function ProductCard({ product, onAdd }) {
   const [inCart, setInCart] = useState(false)

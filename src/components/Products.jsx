@@ -4,7 +4,7 @@ import ProductCard from './ProductCard'
 import { Link } from "react-router-dom";
 
 
-const API = 'http://localhost:5000'
+const API = "https://fitnest-json-server.onrender.com";
 
 export default function Products() {
   const [products, setProducts] = useState([])
