@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Sandy Knit Sweater",
+      "price": 2499,
+      "category": "women",
+      "image": "/images/sweater1.jpg",
+      "rating": 4.5,
+      "stock": 10,
+      "description": "Cozy knit sweater with soft fabric and a relaxed fit."
+    },
+    {
+      "id": "2",
+      "name": "Classic Blue Jeans",
+      "price": 1999,
+      "category": "women",
+      "image": "/images/jeans1.webp",
+      "rating": 4.2,
+      "stock": 12,
+      "description": "High-waist straight jeans with durable stretch denim."
+    },
+    {
+      "id": "3",
+      "name": "Fitted Shirt",
+      "price": 1599,
+      "category": "men",
+      "image": "/images/shirt1.webp",
+      "rating": 4.3,
+      "stock": 8,
+      "description": "Smart casual shirt perfect for day and evening wear."
+    },
+    {
+      "id": "4",
+      "name": "Summer Dress",
+      "price": 2999,
+      "category": "women",
+      "image": "/images/dress1.jpg",
+      "rating": 4.7,
+      "stock": 6,
+      "description": "Lightweight floral dress with comfy silhouette."
+    }
+  ],
+  "cart": [],
+  "wishlist": []
+}
