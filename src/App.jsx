@@ -18,13 +18,13 @@ return (
 
 <main className="container">
 <Routes>
-<Route path="/" element={<Home/>} />
-<Route path="/" element={<Products/>} />
-<Route path="/products/:id" element={<ProductDetails />} />
-<Route path="/cart" element={<Cart/>} />
-<Route path="*" element={<NotFound />} />
-<Route path="/wishlist" element={<Wishlist />} />
+  <Route path="*" element={<Home />} />  {/* Catch all */}
+  <Route path="/products/:id" element={<ProductDetails />} />
+  <Route path="/cart" element={<Cart />} />
+  <Route path="/wishlist" element={<Wishlist />} />
+  <Route path="*" element={<NotFound />} />
 </Routes>
+
 </main>
 <Footer />
 </div>
